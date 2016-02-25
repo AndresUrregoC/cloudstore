@@ -1,7 +1,6 @@
 package com.grability.cloudstore.helpers;
 
 import android.content.Context;
-import android.database.SQLException;
 import android.database.sqlite.SQLiteDatabase;
 
 import com.grability.cloudstore.entities.App;

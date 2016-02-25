@@ -42,10 +42,8 @@ public class AppDao extends DatabaseManager {
 
         try {
             TableUtils.clearTable(this.getHelper().getConnectionSource(), App.class);
-
         }catch (SQLException e){
             e.printStackTrace();
         }
-
     }
 }

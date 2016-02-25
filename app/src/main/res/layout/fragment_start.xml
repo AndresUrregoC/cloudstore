@@ -4,9 +4,8 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <android.support.v7.widget.RecyclerView android:id="@+id/rvBase"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+    <include layout="@layout/content_all_apps"/>
+
 
     <com.github.ndczz.infinityloading.InfinityLoading
         android:id="@+id/loading"
@@ -18,6 +17,26 @@
         app:infl_reverse="true"
         app:infl_progressColor="@color/colorAccent"
         app:infl_strokeWidth="4dp"
+        android:visibility="gone"/>
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/ivCloudSad"
+        android:src="@drawable/cloud_sad"
+        android:layout_gravity="center"
+        android:visibility="gone"
+        android:contentDescription="@string/app_name"/>
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="40dp"
+        android:text="@string/retry_now"
+        android:id="@+id/btRetry"
+        android:layout_gravity="center_horizontal|center"
+        android:layout_marginTop="80dp"
+        android:background="@color/colorPrimary"
+        android:textColor="@android:color/white"
         android:visibility="gone"/>
 
 </FrameLayout>

@@ -2,7 +2,6 @@ package com.grability.cloudstore.dao;
 
 import android.content.Context;
 
-import com.grability.cloudstore.entities.App;
 import com.grability.cloudstore.entities.Category;
 import com.grability.cloudstore.managers.DatabaseManager;
 import com.j256.ormlite.table.TableUtils;
@@ -33,11 +32,9 @@ public class CategoryDao extends DatabaseManager {
 
         try {
             TableUtils.clearTable(this.getHelper().getConnectionSource(), Category.class);
-
         }catch (SQLException e){
             e.printStackTrace();
         }
-
     }
 
 

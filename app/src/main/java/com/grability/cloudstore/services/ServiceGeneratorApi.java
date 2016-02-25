@@ -1,7 +1,6 @@
 package com.grability.cloudstore.services;
 
 import retrofit.RestAdapter;
-import retrofit.client.OkClient;
 
 /**
  * Created by AndresDev on 21/02/16.

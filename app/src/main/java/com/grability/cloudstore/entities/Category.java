@@ -10,18 +10,7 @@ import com.j256.ormlite.table.DatabaseTable;
 public class Category {
 
     @DatabaseField(canBeNull = false)
-    private String ID;
-
-    @DatabaseField(canBeNull = false)
     private String NAME;
-
-    public String getID() {
-        return ID;
-    }
-
-    public void setID(String ID) {
-        this.ID = ID;
-    }
 
     public String getNAME() {
         return NAME;

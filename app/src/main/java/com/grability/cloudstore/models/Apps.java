@@ -1,4 +1,4 @@
-package com.grability.cloudstore.api.models;
+package com.grability.cloudstore.models;
 
 import com.google.gson.annotations.Expose;
 import com.google.gson.annotations.SerializedName;

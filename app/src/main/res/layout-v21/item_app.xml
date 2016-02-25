@@ -22,7 +22,8 @@
             <de.hdodenhof.circleimageview.CircleImageView android:id="@+id/ivIcon"
                 android:layout_width="match_parent"
                 android:layout_height="90dp"
-                android:src="@mipmap/ic_launcher" />
+                android:src="@mipmap/ic_launcher"
+                android:transitionName="shared_image"/>
 
         </LinearLayout>
 
@@ -31,8 +32,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:singleLine="true"
+            android:text="@string/title"
             android:textSize="16sp"
-            android:text="@string/title" />
+            android:transitionName="shared_text"/>
 
         <TextView android:id="@+id/tvCompany"
             android:layout_width="wrap_content"

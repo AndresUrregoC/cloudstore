@@ -1,5 +1,5 @@
 #
-# generated on 2016/02/23 03:12:11
+# generated on 2016/02/24 10:24:46
 #
 # --table-start--
 dataClass=com.grability.cloudstore.entities.App
@@ -40,10 +40,6 @@ canBeNull=false
 dataClass=com.grability.cloudstore.entities.Category
 tableName=category
 # --table-fields-start--
-# --field-start--
-fieldName=ID
-canBeNull=false
-# --field-end--
 # --field-start--
 fieldName=NAME
 canBeNull=false

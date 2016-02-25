@@ -3,7 +3,24 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/splash"
-    tools:context="com.grability.cloudstore.SplashActivity">
+    android:background="@color/colorPrimary"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    tools:context=".ui.activities.SplashActivity">
+
+
+    <ImageView android:id="@+id/ivCloud"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/cloud"
+        android:contentDescription="@string/app_name"/>
+
+    <ImageView android:id="@+id/ivLetter"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/letter"
+        android:layout_gravity="center"
+        android:layout_marginTop="5dp"
+        android:contentDescription="@string/app_name"/>
 
 </LinearLayout>

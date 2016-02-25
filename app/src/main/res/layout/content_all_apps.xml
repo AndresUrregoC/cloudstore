@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
     android:padding="5dp">
 
     <HorizontalScrollView
@@ -22,19 +23,11 @@
         android:text="@string/top_free_applications"
         android:textSize="20sp"
         android:textStyle="bold"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:visibility="gone"/>
 
-    <HorizontalScrollView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:scrollbars="none"
-        android:layout_marginTop="10dp">
-
-        <LinearLayout android:id="@+id/lItemApp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:orientation="horizontal"/>
-
-    </HorizontalScrollView>
+    <android.support.v7.widget.RecyclerView android:id="@+id/rvBase"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
 
 </LinearLayout>

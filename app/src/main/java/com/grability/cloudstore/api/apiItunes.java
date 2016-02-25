@@ -1,6 +1,6 @@
 package com.grability.cloudstore.api;
 
-import com.grability.cloudstore.api.models.Apps;
+import com.grability.cloudstore.models.Apps;
 
 import retrofit.Callback;
 import retrofit.http.GET;
